@@ -17,7 +17,6 @@ Run script: uv run ___
 
 More can be found on the website. Primarily we will be working with Matplotlib and Manim in python. 
 
-~ James 3/1/25
 
 
 The vision for this project is to not only be able to further my understanding of gauge theory but also visualize gauge theory in an intuitive way.
@@ -41,8 +40,10 @@ In my opinion, what we really want to capture is what happens when transforming 
 For example, physical observables are left invariant. However, are the dynamics of off shell particles changed? How are they changed? What do those changes look like?
 
 
-3/2/25
-------
+*~ James 3/1/25*
+
+# 3/2/25
+
 Lets try to investigate the theory of electro-weak. This theory is a SU(2) x U(1) gauge theory. U(1) is electromagnetism in the form of QED, and SU(2) is nuclear decay in the form of the weak interaction
 
 First off, lets try to visualize both SU(2) and U(1) local symmetries independently, using manim
@@ -50,5 +51,11 @@ This entails:
 --> Fields changing under this local transformation (i.e., flags or something)
 --> The visualization of U(1) and SU(2), ie their Lie groups and covers
 --> The Gauge covariant derivative and a visual of how the gauge field "mediates" interactions
+
+# 3/5/25
+
+Starting off with the definition of a gauge. In mathematical terms, a gauge is used to get rid of redundant degrees of freedom. An example of this is electromagnetism. Whether or not you choose the coulomb gauge or the lorentz gauge, the physics of the system is identical but the mathematical way of writing down equations looks different. This is what is meant by a redundant degree of freedom. 
+
+There exists transformations between different gauges, which we call gauge transformations. The set of all unique gauge transformations form a lie group. A lie group can be roughly summarized as a group which is also a differentiable manifold, i.e. a "continuous group". Since we are already not being rigorous, we can say that the differentiable manifold portion of the lie group implies that the group operation is also differentiable. In the context of physics (QFT in particular), the lie groups we will be studying belong to the family $GL(n,\mathbb{F})$. Namely, the general linear group of $n \cross n$ matrices with entries that belong to the field $\mathbb{F}$. 
 
 
